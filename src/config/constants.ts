@@ -53,6 +53,11 @@ export const UI_TEXT_EN = {
     MARKUP_LABEL: (value: number) => `📈 Markup (${value}%):`,
     DISCOUNT_LABEL: (value: number) => `📉 Discount (${value}%):`,
     TOTAL: "💲 Total:",
+    COPY_IMAGE: "Copy",
+    SAVE_IMAGE: "Save",
+    COPY_SUCCESS: "Copied!",
+    SAVE_SUCCESS: "Saved!",
+    COPY_ERROR: "Error!",
   },
   VALIDATION: {
     POSITIVE_NUMBER: "Enter a positive number",
@@ -115,6 +120,11 @@ export const UI_TEXT_RO = {
     MARKUP_LABEL: (value: number) => `📈 Adaos (${value}%):`,
     DISCOUNT_LABEL: (value: number) => `📉 Reducere (${value}%):`,
     TOTAL: "💲 Total:",
+    COPY_IMAGE: "Copiază",
+    SAVE_IMAGE: "Salvează",
+    COPY_SUCCESS: "Copiat!",
+    SAVE_SUCCESS: "Salvată!",
+    COPY_ERROR: "Eroare!",
   },
   VALIDATION: {
     POSITIVE_NUMBER: "Introduceți un număr pozitiv",
