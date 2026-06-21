@@ -149,7 +149,7 @@ export function ParameterEditorModal({
               borderColor: "var(--accent)",
               borderWidth: "1px",
               borderStyle: "solid",
-              color: "#ffffff",
+              color: "#0a0a0a",
             }}
           >
             {UI_TEXT.COMMON.SAVE_BUTTON}

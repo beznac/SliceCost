@@ -138,14 +138,17 @@ export default function App() {
     >
       <div className="container mx-auto px-4 py-8 max-w-6xl">
         <header className="relative text-center mb-8">
+          <a
+            href="https://zyg0t.github.io/WebUtils/"
+            className="header-btn absolute left-0 top-0"
+            title="WebUtils"
+          >
+            <i className="fas fa-shapes"></i>
+          </a>
+
           <button
             onClick={() => setLanguage(language === "en" ? "ro" : "en")}
-            className="absolute right-0 top-0 flex items-center gap-1 px-3 py-1 rounded-lg text-sm transition"
-            style={{
-              background: "var(--card)",
-              color: "var(--text)",
-              border: "1px solid var(--border)",
-            }}
+            className="header-btn absolute right-0 top-0"
           >
             {language === "en" ? "🇬🇧" : "🇷🇴"}
           </button>

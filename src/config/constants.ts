@@ -67,12 +67,6 @@ export const UI_TEXT_EN = {
     MARKUP: "Markup",
     DISCOUNT: "Discount",
   },
-  COST_BREAKDOWN: {
-    MATERIAL_COST: "♻️ Material cost:",
-    TIME_COST: "⏳ Time cost:",
-    ELECTRICITY_COST: "⚡ Power cost:",
-    WORK_FEE: "🛠️ Maintenance fee:",
-  },
   UNITS: {
     GRAMS: "g",
     HOURS: "hrs",
@@ -88,14 +82,12 @@ export const UI_TEXT_EN = {
 
 export const UI_TEXT_RO = {
   COMMON: {
-    PRINT_BUTTON: "Printează",
     SAVE_BUTTON: "Salvează",
     CANCEL_BUTTON: "Anulează",
     RESET_BUTTON: "Implicit",
   },
   WORK_DETAILS: {
     TITLE: "Detalii fișier",
-    PRINT_TITLE: "Calcul cost imprimare 3D",
     PROJECT_NAME: "Nume proiect",
     PROJECT_NAME_PLACEHOLDER: "3dbenchy.gcode",
     FILAMENT_WEIGHT: "Greutate filament",
@@ -115,7 +107,6 @@ export const UI_TEXT_RO = {
   },
   COST_DETAILS: {
     TITLE: "Detalii cost",
-    TOTAL_COST: "Cost final",
     MATERIAL_COST: "♻️ Cost material:",
     TIME_COST: "⏳ Cost timp:",
     ELECTRICITY_COST: "⚡ Cost energie:",
@@ -124,7 +115,6 @@ export const UI_TEXT_RO = {
     MARKUP_LABEL: (value: number) => `📈 Adaos (${value}%):`,
     DISCOUNT_LABEL: (value: number) => `📉 Reducere (${value}%):`,
     TOTAL: "💲 Total:",
-    SHOW_DETAILS: "Vezi detalii complete",
   },
   VALIDATION: {
     POSITIVE_NUMBER: "Introduceți un număr pozitiv",
@@ -138,12 +128,6 @@ export const UI_TEXT_RO = {
     ELECTRICITY_PRICE: "Cost energie",
     MARKUP: "Adaos",
     DISCOUNT: "Reducere",
-  },
-  COST_BREAKDOWN: {
-    MATERIAL_COST: "♻️ Cost material:",
-    TIME_COST: "⏳ Cost timp:",
-    ELECTRICITY_COST: "⚡ Cost energie:",
-    WORK_FEE: "🛠️ Taxă întreținere:",
   },
   UNITS: {
     GRAMS: "g",
