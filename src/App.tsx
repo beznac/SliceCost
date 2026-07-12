@@ -139,7 +139,7 @@ export default function App() {
       <div className="container mx-auto px-4 py-8 max-w-6xl">
         <header className="relative text-center mb-8">
           <a
-            href="https://zyg0t.github.io/WebUtils/"
+            href="https://beznac.github.io/WebUtils/"
             className="header-btn absolute left-0 top-0"
             title="WebUtils"
           >
